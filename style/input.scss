@@ -1,0 +1,26 @@
+input[type=text],
+input[type=number],
+input[type=email],
+input[type=tel],
+input[type=date],
+input[type=password] {
+    font-size: $body-font-size;
+    line-height: $line-height;
+    font-family: $font-body;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.4rem;
+    box-sizing: border-box;
+}
+
+@media (max-width: 667px) {
+    input[type=text],
+    input[type=number],
+    input[type=email],
+    input[type=tel],
+    input[type=date],
+    input[type=password] {
+        width: 100%;
+    }
+}
