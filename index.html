@@ -23,12 +23,23 @@
 
 
         <h2>Inputs</h2>
-        <input type="text" class="input" />
-        <input type="number" class="input" />
-        <input type="email" class="input" />
-        <input type="tel" class="input" />
+        <label class="input-label">Text</label>
+        <input type="text" class="input" placeholder="Fyll i text" />
+
+        <label class="input-label">Number</label>
+        <input type="number" class="input" placeholder="Fyll i en siffra" />
+
+        <label class="input-label">Email</label>
+        <input type="email" class="input" placeholder="Fyll i en e-post" />
+
+        <label class="input-label">Tel</label>
+        <input type="tel" class="input" placeholder="Fyll i ett telefonnummer" />
+
+        <label class="input-label">Date</label>
         <input type="date" class="input" />
 
+        <label class="input-label">Password</label>
+        <input type="password" class="input" />
 
 
         <h2>typography</h2>
@@ -38,9 +49,27 @@
         <h4>Är du sedan tidigare bekant med utveckling av mobila appar?</h4>
         <p>Jag har tidigare utvecklad en app för App Store. Men det var i Objective-C och långt ifrån webbens tekniker som används i denna kurs. Utvecklingsmiljön i denna kurs känns som mer den jag är van vid från tidigare webb kurser och webbprogramming i allmänhet.</p>
 
+
+        <h2>table</h2>
+
+        <table>
+            <thead>
+                <tr><th>Artikelnr.</th><th>Namn</th><th>Beskrivning</th><th>Lagersaldo</th><th>Lagerplats</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>14-RNT</td><td>Skruv M14</td><td>Skruv M14, värmförsinkad</td><td>12</td><td>A1B4</td></tr>
+                <tr><td>12-RNT</td><td>Skruv M12</td><td>Skruv M12, värmförsinkad</td><td>14</td><td>A1B5</td></tr>
+                <tr><td>10-RNT</td><td>Skruv M10</td><td>Skruv M10, värmförsinkad</td><td>20</td><td>A1B6</td></tr>
+                <tr><td>08-RNT</td><td>Skruv M8</td><td>Skruv M8, värmförsinkad</td><td>2</td><td>A1B7</td></tr>
+                <tr><td>06-RNT</td><td>Skruv M6</td><td>Skruv M6, värmförsinkad</td><td>6</td><td>A1B8</td></tr>
+                <tr><td>14-TNT</td><td>Mutter M14</td><td>Mutter M14, värmförsinkad, passar 1214-RNT</td><td>13</td><td>A1C4</td></tr>
+                <tr><td>12-TNT</td><td>Mutter M12</td><td>Mutter M12, värmförsinkad, passar 1212-RNT</td><td>23</td><td>A1C4</td></tr>
+                <tr><td>10-TNT</td><td>Mutter M10</td><td>Mutter M10, värmförsinkad, passar 1210-RNT</td><td>12</td><td>A1C4</td></tr>
+                <tr><td>08-TNT</td><td>Mutter M8</td><td>Mutter M8, värmförsinkad, passar 1208-RNT</td><td>4</td><td>A1C4</td></tr>
+                <tr><td>06-TNT</td><td>Mutter M6</td><td>Mutter M6, värmförsinkad, passar 1206-RNT</td><td>1</td><td>A1C4</td></tr>
+            </tbody>
+        </table>
     </main>
-
-
 
     <nav class="bottom-nav">
         <a href="#">TESTING</a>
